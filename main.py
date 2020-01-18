@@ -61,8 +61,8 @@ if __name__ == '__main__':
         date_list, prediction, '--r'
     )
 
-    ax.axhline(y=100000, linestyle='--')
-    ax.axhline(y=120000, linestyle='--')
+    ax.axhline(y=75000, linestyle='--')
+    ax.axhline(y=95000, linestyle='--')
     ax.axvline(x=due_date, color='orange')
 
     plt.savefig('plot.png')
